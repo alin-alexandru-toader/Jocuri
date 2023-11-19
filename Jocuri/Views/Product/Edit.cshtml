@@ -1,0 +1,9 @@
+﻿@model Jocuri.Models.VMs.ProductVM
+
+@{
+    ViewData["Title"] = "Editează produs";
+}
+
+@{ ViewBag.IsNew = false;}
+
+@await Html.PartialAsync(@"../Shared/Components/_Product.cshtml")
